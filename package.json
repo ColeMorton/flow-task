@@ -1,0 +1,16 @@
+{
+  "name": "flow-task",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "author": "Cole Morton",
+  "dependencies": {
+    "json-loader": "^0.5.7",
+    "mocha": "^5.0.0",
+    "webpack": "^3.10.0"
+  }
+}

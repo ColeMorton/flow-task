@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "body": "function a(arg) {return arg.color != null && arg.color === \"red\"}",
+    "true_id": 3,
+    "false_id": 2
+  },
+  {
+    "id": 2,
+    "body": "function a(arg) {return arg.color != null && arg.color === \"blue\"}",
+    "true_id": 3,
+    "false_id": null
+  },
+  {
+    "id": 3,
+    "body": "function a(arg) {return arg.size != null && arg.size === \"small\"}",
+    "true_id": null,
+    "false_id": 4
+  },
+  {
+    "id": 4,
+    "body": "function a(arg) {return arg.hasBorder === true}",
+    "true_id": null,
+    "false_id": null
+  }
+]
